@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>My page</title>
-    <style type="text/css">
+    <style>
       .container{
         padding-top: 15px;
       }
@@ -32,56 +32,40 @@
     </style>
   </head>
   
-  <body>
+  <body style="background-color: #545a80">
     <div class="container-fluid">
-      <div class="jumbotron bg-dark">
+      <div class="jumbotron bg-dark" style="background: url('https://assetstorev1-prd-cdn.unity3d.com/key-image/2bfdaf81-4ec1-41ba-ba7a-177840a3af76.jpg');">
         <div class="media">
           <img class="mr-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSo0NVLrORZ_LhWsdp4j4Z7QwkzK2sutl5jcg&usqp=CAU" alt="Generic placeholder image" style="width: 90px; height: 90px">
           <div class="media-body">
-            <h1>Personal data</h1>
+            <h1>Profile</h1>
             <h2>welcome to my page, please see and learn what's on this page</h2>
           </div>
         </div>
       </div>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Menu</a>
+
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding-top: 10px">
+        <a class="navbar-brand" href="#">Home</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon">  
           </span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
+            <li class="nav-item">
+             <a class="nav-link" href="#news">News</a>
             </li>
 
             <li class="nav-item">
-             <a class="nav-link" href="#">Video</a>
+             <a class="nav-link" href="#agenda">Agenda</a>
             </li>
 
             <li class="nav-item">
-             <a class="nav-link" href="#">Image</a>
+             <a class="nav-link" href="#announcement">Announcement</a>
             </li>
 
             <li class="nav-item">
-             <a class="nav-link" href="#">Story</a>
-            </li>
-
-            <li class="nav-item">
-             <a class="nav-link" href="#">Announcement</a>
-            </li>
-
-            <li class="nav-item dropdown">
-             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Drowdowns
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another</a>
-                <a class="dropdown-item" href="#">Another Action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else in here</a>
-              </div>
+             <a class="nav-link" href="#notification">Notification</a>
             </li>
 
           </ul>
@@ -99,13 +83,21 @@
           <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
           <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="https://media4.giphy.com/media/2WjpfxAI5MvC9Nl8U7/giphy.gif" alt="First slide">
+            <img class="d-block w-100" src="https://i.pinimg.com/originals/08/b4/fe/08b4fea6d66b3e3a7c63b9f64e1ccf9a.png" alt="First slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="https://media4.giphy.com/media/2WjpfxAI5MvC9Nl8U7/giphy.gif" alt="Second slide">
+            <img class="d-block w-100" src="https://cdn.wallpapersafari.com/90/68/8jDr2P.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/08/31/18/10/background-3645256_960_720.jpg" alt="Second slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src="https://www.ubackground.com/_ph/23/968914319.jpg" alt="Second slide">
           </div>
           <div class="carousel-item">
             <img class="d-block w-100" src="https://media4.giphy.com/media/2WjpfxAI5MvC9Nl8U7/giphy.gif" alt="Third slide">
@@ -125,39 +117,40 @@
     <div class="container">
       <div class="jumbotron bg-dark text-white" >
         <div class="media">
-          <img class="mr-3" src="https://lh3.googleusercontent.com/3AtkVOYSD7evjrKB0Fr1V3xESLvbFrAkuBQHx7c8C7lmvAjYZwvG4uqPFUnvoC3WDarcSg=s85" alt="Generic placeholder image">
+          <img class="mr-3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSo0NVLrORZ_LhWsdp4j4Z7QwkzK2sutl5jcg&usqp=CAU">
             <div class="media-body">
               <h3 class="mt-0">Profile</h3>      
-              Hy, my name is Andi Nurul Qalbi, a student majoring in computer science in 2019. I am interested in programming matters such as web development, game development, and so on. in the current era, people who have expertise in this field have a role in the development of technology that enables the creation of qualified human resources.
+              Hy, my name is <b>Andi Nurul Qalbi</b>, a student majoring in computer science in 2019. I am interested in programming matters such as web development, game development, and so on. in the current era, people who have expertise in this field have a role in the development of technology that enables the creation of qualified human resources.
             </div>
         </div>
       </div>
 
       <div class="row">
         <div class="col-sm-8">
-          <h4>News</h4>
+          <h4 id="news">News</h4>
           <div class="card-deck" style="padding-top: 15px; padding-bottom: 15px">
             <div class="card text-white bg-dark">
-              <img src="https://lh3.googleusercontent.com/qAl_mm8yJSUWy9CaJ-zGRVk3ae2isS2wcTk1DCXKPIvG3TB7fkXFg5NDIQdnLhuZsPZg310=s85" class="card-img-top" alt="...">
+              <img src="https://i0.wp.com/benisnous.com/wp-content/uploads/2020/09/How-To-Download-Among-Us-On-Linux-and-Windows-For.jpg?fit=480%2C360&ssl=1">
                 <div class="card-body">
-                  <h5 class="card-title">News</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">Among us</h5>
+                  <p class="card-text">Play online or over local WiFi with 4-10 players as you attempt to prep your spaceship for departure, but beware as one will be an impostor bent on killing everyone!
+                  </p>
                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
             <div class="card text-white bg-dark">
-              <img src="https://lh3.googleusercontent.com/qAl_mm8yJSUWy9CaJ-zGRVk3ae2isS2wcTk1DCXKPIvG3TB7fkXFg5NDIQdnLhuZsPZg310=s85" class="card-img-top" alt="...">
+              <img src="https://upload.wikimedia.org/wikipedia/en/thumb/5/51/Minecraft_cover.png/220px-Minecraft_cover.png">
                 <div class="card-body">
-                  <h5 class="card-title">News</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">Minecraft</h5>
+                  <p class="card-text">In Minecraft, players explore a blocky, procedurally-generated 3D world with infinite terrain, and may discover and extract raw materials, craft tools and items, and build structures or earthworks.</p>
                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
             <div class="card text-white bg-dark">
-              <img src="https://lh3.googleusercontent.com/qAl_mm8yJSUWy9CaJ-zGRVk3ae2isS2wcTk1DCXKPIvG3TB7fkXFg5NDIQdnLhuZsPZg310=s85" class="card-img-top" alt="...">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ35dRl-djRn8OKvM5Lmwm8ub40g1Pl45xwtQ&usqp=CAU">
                 <div class="card-body">
-                  <h5 class="card-title">News</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">Mobile Legends</h5>
+                  <p class="card-text"> mobile multiplayer online battle arena (MOBA) developed and published by Moonton. Released in 2016, the game has become popular in Southeast Asia and was among the games chosen for the first medal event esports competition at the 2019 Southeast Asian Games in the Philippines.</p>
                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
@@ -165,53 +158,26 @@
 
           <div class="card-deck" style="padding-top: 15px; padding-bottom: 15px">
             <div class="card text-white bg-dark">
-              <img src="https://lh3.googleusercontent.com/qAl_mm8yJSUWy9CaJ-zGRVk3ae2isS2wcTk1DCXKPIvG3TB7fkXFg5NDIQdnLhuZsPZg310=s85" class="card-img-top" alt="...">
+              <img src="https://lh3.googleusercontent.com/proxy/z8dPSifdK-HbfKSd_dQzVG-6uGxVXibgIWUqvv5TPLbC3o7XIEvDMbdhXliR8O0SgayS21RX6FJSyXWKKTlk_jJTrQrTLepio1JpUo7isTVC1v4cSh6sKz0quD7RweJ0HKY">
                 <div class="card-body">
-                  <h5 class="card-title">News</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">Garena Free fire</h5>
+                  <p class="card-text">The game consists of up to 50 players falling from a parachute on an island in search of weapons and equipment to kill the other players. Players are free to choose their starting position, take weapons and supplies to extend their battle life.</p>
                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
             <div class="card text-white bg-dark">
-              <img src="https://lh3.googleusercontent.com/qAl_mm8yJSUWy9CaJ-zGRVk3ae2isS2wcTk1DCXKPIvG3TB7fkXFg5NDIQdnLhuZsPZg310=s85" class="card-img-top" alt="...">
+              <img src="https://i.pinimg.com/736x/b8/7c/c9/b87cc9307b46ed455780110fd1718636.jpg">
                 <div class="card-body">
-                  <h5 class="card-title">News</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">PUBG</h5>
+                  <p class="card-text">Battlegrounds is a player versus player shooter game in which up to one hundred players fight in a battle royale, a type of large-scale last man standing deathmatch where players fight to remain the last alive.</p>
                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
             <div class="card text-white bg-dark">
-              <img src="https://lh3.googleusercontent.com/qAl_mm8yJSUWy9CaJ-zGRVk3ae2isS2wcTk1DCXKPIvG3TB7fkXFg5NDIQdnLhuZsPZg310=s85" class="card-img-top" alt="...">
+              <img src="https://cdns.klimg.com/kapanlagi.com/p/headline/476x238/15-fakta-unik-game-arena-of-valor-aov-n-33403d.jpg">
                 <div class="card-body">
-                  <h5 class="card-title">News</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-          </div>
-
-          <div class="card-deck" style="padding-top: 15px; padding-bottom: 15px">
-            <div class="card text-white bg-dark">
-              <img src="https://lh3.googleusercontent.com/qAl_mm8yJSUWy9CaJ-zGRVk3ae2isS2wcTk1DCXKPIvG3TB7fkXFg5NDIQdnLhuZsPZg310=s85" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">News</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-            <div class="card text-white bg-dark">
-              <img src="https://lh3.googleusercontent.com/qAl_mm8yJSUWy9CaJ-zGRVk3ae2isS2wcTk1DCXKPIvG3TB7fkXFg5NDIQdnLhuZsPZg310=s85" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">News</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-            </div>
-            <div class="card text-white bg-dark">
-              <img src="https://lh3.googleusercontent.com/qAl_mm8yJSUWy9CaJ-zGRVk3ae2isS2wcTk1DCXKPIvG3TB7fkXFg5NDIQdnLhuZsPZg310=s85" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">News</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                  <h5 class="card-title">Arena of Valor</h5>
+                  <p class="card-text">Arena of Valor is a 3D, third-person, multiplayer online battle arena (MOBA) game for mobile. The game has multiple modes, with the main three being Grand Battle, Valley Skirmish and Abyssal Clash.</p>
                   <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
                 </div>
             </div>
@@ -219,75 +185,57 @@
 
         </div>
         <div class="col-sm-4">
-          <h4>Agenda</h4>
+          <h4 id="agenda">Agenda</h4>
           <ul class="list-group list-group-flush" style="padding-top: 15px">
-            <li class="list-group-item">Cras justo odio</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Morbi leo risus</li>
-            <li class="list-group-item">Porta ac consectetur ac</li>
-            <li class="list-group-item">Vestibulum at eros</li>
-            <li class="list-group-item">Dapibus ac facilisis in</li>
-            <li class="list-group-item">Porta ac consectetur ac</li>
-            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Game review</li>
+            <li class="list-group-item">Tournament info</li>
+            <li class="list-group-item">Donate gems</li>
+            <li class="list-group-item">Some tips and trick</li>
+            <li class="list-group-item">Play with everyone</li>
           </ul>
           
-          <h4 style="padding-top: 20px; padding-bottom: 15px">Announcement</h4>
+          <h4 id="announcement" style="padding-top: 20px; padding-bottom: 15px">Announcement</h4>
           <div class="list-group">
             <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
               <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">List group item heading</h5>
-                <small>3 days ago</small>
+                <h5 class="mb-1">Among Us tournament</h5>
+                <small>1 days ago</small>
               </div>
-              <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-              <small>Donec id elit non mi porta.</small>
+              <p class="mb-1">Find community-run Among Us esports tournaments happening across hundreds of communities worldwide. Click ‘Join’ to enter the Among Us tournament.</p>
+              <small>contact game master for info</small>
             </a>
-            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">List group item heading</h5>
-                <small class="text-muted">3 days ago</small>
-              </div>
-              <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-              <small class="text-muted">Donec id elit non mi porta.</small>
-            </a>
-            <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
-              <div class="d-flex w-100 justify-content-between">
-                <h5 class="mb-1">List group item heading</h5>
-                <small class="text-muted">3 days ago</small>
-              </div>
-              <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-              <small class="text-muted">Donec id elit non mi porta.</small>
-            </a>
-          </div>
-          
-          <h4 style="padding-top: 20px; padding-bottom: 15px">Notification</h4>
+
+          <h4 id="notification" style="padding-top: 20px; padding-bottom: 15px">Notification</h4>
           <ul class="list-group">
             <li class="list-group-item d-flex justify-content-between align-items-center">
-              Cras justo odio
-              <span class="badge badge-primary badge-pill">14</span>
+              Mail
+              <span class="badge badge-primary badge-pill">7</span>
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-center">
-              Dapibus ac facilisis in
-              <span class="badge badge-primary badge-pill">2</span>
+              Status
+              <span class="badge badge-primary badge-pill">12</span>
             </li>
             <li class="list-group-item d-flex justify-content-between align-items-center">
-              Morbi leo risus
-              <span class="badge badge-primary badge-pill">1</span>
+              Like
+              <span class="badge badge-primary badge-pill">156</span>
             </li>
           </ul>
         </div>
       </div>
     </div>
 
-    <div class="container-fluid">
+    <div style="padding-top: 20px">
       <div class="jumbotron bg-dark">
-        <small style="color: white">© Copyright 2020</small>
+        <small style="color: white">© Copyright 2020 | by Andiqal</small>
       </div>
     </div>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="effect.js"></script>
   </body>
 </html>
